@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora interactiva</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <!--Utilizo los data-attributes para facilitar el cambio de los estilos-->
+  <body data-dark-theme>
+
+    <div class="calc-container" data-dark-theme>
+      <div class="calc-container__screen" data-dark-theme>0</div>
+      
+      <button class="btn delete" data-dark-theme>DEL</button>
+      <button class="btn operator" data-dark-theme>/</button>
+      <button class="btn operator" data-dark-theme>*</button>
+      <button class="btn" data-dark-theme>7</button>
+      <button class="btn" data-dark-theme>8</button>
+      <button class="btn" data-dark-theme>9</button>
+      <button class="btn operator" data-dark-theme>+</button>
+      <button class="btn" data-dark-theme>4</button>
+      <button class="btn" data-dark-theme>5</button>
+      <button class="btn" data-dark-theme>6</button>
+      <button class="btn operator" data-dark-theme>-</button>
+      <button class="btn" data-dark-theme>1</button>
+      <button class="btn" data-dark-theme>2</button>
+      <button class="btn" data-dark-theme>3</button>
+      <button class="btn operator" id="igual" data-dark-theme>=</button>
+      <button class="btn cero" data-dark-theme>0</button>
+      <button class="btn" data-dark-theme>.</button>
+      
+    </div>
+
+
+    <button class="dark-theme-btn" data-dark-theme>Cambiar a modo oscuro</button>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
